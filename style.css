@@ -1,0 +1,143 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+   border: 0;
+}
+
+body {
+ background-color: #FED9B7; 
+}
+
+div
+{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+
+h1
+{
+  font-size: 60px;
+  padding:8px 24px;
+  border-radius: 16px;
+}
+
+div:nth-child(2)
+{
+  background-image: url("assets/period_stuff.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* STYLE TEXT */
+
+#heading1
+{
+  color: #F07167;
+  font-family: 'Koulen', cursive;
+  font-size: 75px;
+  text-align: center;
+  background-color: #8A2525;
+  padding: 1.5em;
+}
+
+.heading {
+  color: #F07167;
+  font-family: 'Koulen', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #8A2525;
+  margin: 0;
+}
+
+p
+{
+  font-family: 'Mukta', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 2em;
+}
+
+
+#fact
+{
+  font-size: 30px;
+}
+
+.credit
+{
+  font-size: 15px;
+}
+/* STYLE IMAGES */
+
+img
+{
+  display: block;
+  margin: auto;
+  padding-top: 1.5em;
+}
+
+/* STYLE NAV BAR */
+
+ul
+{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1em;
+  background-color: #8A2525;
+}
+
+li
+{
+  display: inline;
+}
+
+li a
+{
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  font-family: 'Koulen', cursive;
+  font-size: 1.3em
+}
+
+li a:hover
+{
+  background-color: #aa5555;
+}
+/* STYLE BUTTONS */
+
+
+#factButton
+{
+  background-color: #F07167;
+  border: 0;
+  font-size: 25px;
+  font-family: 'Koulen', cursive;
+  padding-right: 10em;
+  padding-left: 10em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: block;
+  margin: auto;
+  color: #8A2525;
+}
+
+#factButton:hover
+{
+  background-color: #e1a8b2;
+}
+/* others */
+
+iframe
+{
+  padding-bottom: 2em; 
+  align-items: center;
+}

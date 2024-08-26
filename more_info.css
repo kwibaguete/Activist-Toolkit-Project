@@ -1,0 +1,94 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+}
+
+body {
+ background-color: #FED9B7; 
+}
+
+div
+{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+
+div:nth-child(2)
+{
+  background-image: url("assets/flowies.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* nav bar */
+
+ul
+{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1em;
+  background-color: #8A2525;
+}
+
+li
+{
+  display: inline;
+}
+
+li a
+{
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  font-family: 'Koulen', cursive;
+  font-size: 1.3em
+}
+
+li a:hover
+{
+  background-color: #aa5555;
+}
+
+p
+{
+  font-family: 'Mukta', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 2em;
+}
+
+/* headings */
+
+#heading2 
+{
+  color: #F07167;
+  font-family: 'Koulen', cursive;
+  font-size: 75px;
+  text-align: center;
+  background-color: #8A2525;
+  padding: 1.5em;
+}
+
+.heading 
+{
+  color: #F07167;
+  font-family: 'Koulen', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #8A2525;
+  margin: 0;
+}
+
+.credit
+{
+  font-size: 15px;
+}
+  
